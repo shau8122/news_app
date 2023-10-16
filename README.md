@@ -25,9 +25,9 @@ Welcome to the repository for our News Website, a dynamic platform built using N
 Make sure you have `node.js` and `Docker` installed:
 
 ```bash
-node --version
-npm --version
-docker --version
+node v16.18.0
+npm 9.4.2
+docker 24.0.6
 
 
 
