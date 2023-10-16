@@ -32,7 +32,8 @@ docker --version
 
 
 
-### Installation
+## Installation
+
 1. Clone this repository:
 
 git clone https://github.com/shau8122/news_app.git
@@ -53,7 +54,7 @@ docker run -p 3000:3000 news-website-nextjs
 
 5. Visit http://localhost:3000 in your browser to see the application running.
 
-### Without Docker
+## Without Docker
 If you wish to run the project without Docker:
 
 1. Install the project dependencies:
@@ -64,17 +65,20 @@ npm install
 
 npm run dev
 
-<span style="color: blue">Deployment</span>
+
+**Deployment**
+
 You can deploy this Dockerized website on platforms that support Docker containers, or use it in combination with orchestration tools like Kubernetes. If you're deploying the non-Dockerized version, platforms like Vercel or Netlify are recommended. [Read the Next.js documentation on deployment](https://nextjs.org/docs/deployment) for more details.
 
-<span style="color: blue">Contributing</span>
+
+**Contributing**
+
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-<span style="color: blue">License</span>
+**License**
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<span style="color: blue">Contact</span>
+**Contact**
 Your Name - shaukatali28122001@gmail.com
 
-Project Link: [https://news-app-five-chi.vercel.app](https://news-app-five-chi.vercel.app)
-
+Project Link: https://news-app-five-chi.vercel.app
