@@ -12,7 +12,7 @@ interface NavbarProps {
 
 const navDetails = [
   {
-    name: "General",
+    name: "Latest",
     href: "general",
   },
   {

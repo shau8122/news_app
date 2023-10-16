@@ -142,9 +142,8 @@ const PageLayout: React.FC<PageLayoutProps> = ({ category }) => {
     async function fetchNews() {
       setIsLoading(true);
       try {
-        const res = await fetch(
-           `http://localhost:3000/api/categoryNews?category=${category}&country=${country}`
-        );
+        const url = `${process.env.NEXT_PUBLIC_FRONTEND_URL}/api/categoryNews?category=${category}&country=${country}`;
+        const res = await fetch(url);
         const data = await res.json();
         setArticlesCat(data.articles);
       } catch (error) {
@@ -157,8 +156,8 @@ const PageLayout: React.FC<PageLayoutProps> = ({ category }) => {
       setIsLoading(true)
       try {
         const query = `${state} ${category}`;
-        console.log(query);
-        const res = await fetch(`http://localhost:3000/api/queryNews?query=${query}`);
+        const url = `${process.env.NEXT_PUBLIC_FRONTEND_URL}/api/queryNews?query=${query}`;
+        const res = await fetch(url);
         const data = await res.json();
         setArticlesCat(data.articles);
       } catch (error) {

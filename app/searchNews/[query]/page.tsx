@@ -16,7 +16,8 @@ const SearchNewsPage = ({ params }: { params: { query: string } }) => {
     async function fetchNews() {
       setIsLoading(true)
       try {
-        const res = await fetch(`http://localhost:3000/api/queryNews?query=${query}`);
+        const url= `${process.env.NEXT_PUBLIC_FRONTEND_URL}/api/queryNews?query=${query}`
+        const res = await fetch(url);
         const data = await res.json();
         setArticles(data.articles);
       } catch (error) {
