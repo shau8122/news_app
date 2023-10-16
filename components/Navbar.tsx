@@ -67,8 +67,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSelect, selectedItem, isFormOpen,setI
   return (
     <nav className="flex w-full flex-col md:flex-row justify-between items-center">
       <div className=" ">
-        <h1 className="px-5 font-bold text-4xl md:text-2xl lg:text-4xl font-serif text-blue-700">
-          News App
+        <h1 className="px-5 font-bold text-4xl md:text-2xl lg:text-4xl font-helvetica text-blue-700">
+          newsapp
         </h1>
       </div>
 

@@ -16,7 +16,8 @@ const config: Config = {
       },
       fontFamily: {
         'times': ['Times New Roman', 'serif'],
-        'helvetica': ['Helvetica', 'Arial', 'sans-serif']
+        'helvetica': ['Helvetica', 'Arial', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
