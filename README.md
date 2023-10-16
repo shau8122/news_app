@@ -23,9 +23,9 @@ Welcome to the repository for our News Website, a dynamic platform built using N
 ### Prerequisites
 
 ### Environment variable
-  MONGODB_URI=
-  API_KEY=0dbd6f1e68ed462dbdfd56b1a5f8a0f8
-  NEXT_PUBLIC_FRONTEND_URL=http://localhost:3000
+  ## MONGODB_URI=
+  ## API_KEY=0dbd6f1e68ed462dbdfd56b1a5f8a0f8
+  ## NEXT_PUBLIC_FRONTEND_URL=http://localhost:3000
 
 Make sure you have `node.js` and `Docker` installed:
 
