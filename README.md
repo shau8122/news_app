@@ -2,7 +2,7 @@
 
 Welcome to the repository for our News Website, a dynamic platform built using Next.js and dockerized for easy deployment.
 
-![screenshot of the website](./path-to-your-screenshot.png)
+![screenshot of the website](./sc.png)
 
 ## Features
 
@@ -35,7 +35,7 @@ docker --version
 ### Installation
 1. Clone this repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/shau8122/news_app.git
 
 
 2. Move into the project directory:
@@ -64,16 +64,17 @@ npm install
 
 npm run dev
 
-Deployment
-You can deploy this Dockerized website on platforms that support Docker containers, or use it in combination with orchestration tools like Kubernetes. If you're deploying the non-Dockerized version, platforms like Vercel or Netlify are recommended. Read the Next.js documentation on deployment for more details.
+<span style="color: blue">Deployment</span>
+You can deploy this Dockerized website on platforms that support Docker containers, or use it in combination with orchestration tools like Kubernetes. If you're deploying the non-Dockerized version, platforms like Vercel or Netlify are recommended. [Read the Next.js documentation on deployment](https://nextjs.org/docs/deployment) for more details.
 
-Contributing
+<span style="color: blue">Contributing</span>
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-License
-Distributed under the MIT License. See LICENSE for more information.
+<span style="color: blue">License</span>
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Contact
+<span style="color: blue">Contact</span>
 Your Name - shaukatali28122001@gmail.com
 
-Project Link: https://github.com/your-username/your-repo-name
+Project Link: [https://news-app-five-chi.vercel.app](https://news-app-five-chi.vercel.app)
+
