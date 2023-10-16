@@ -81,4 +81,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 **Contact**
 Your Name - shaukatali28122001@gmail.com
 
-Project Link: https://news-app-five-chi.vercel.app
+Project Link: https://news8122.vercel.app
