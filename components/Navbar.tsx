@@ -1,7 +1,9 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
-import { SetStateAction, use, useState } from "react";
+import { SetStateAction,  useState } from "react";
 import Select from "./Select";
+import logoImage from '@/public/newLogo.png'
+import Image from 'next/image'
 
 interface NavbarProps {
   onSelect: (item: string) => void;
@@ -65,7 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSelect, selectedItem, isFormOpen,setI
   return (
     <nav className="flex w-full flex-col md:flex-row justify-between items-center">
       <div className=" ">
-        <h1 className="px-5 font-bold text-4xl md:text-2xl lg:text-4xl font-serif text-slate-950">
+        <h1 className="px-5 font-bold text-4xl md:text-2xl lg:text-4xl font-serif text-blue-700">
           News App
         </h1>
       </div>
