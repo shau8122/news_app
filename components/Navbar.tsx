@@ -71,7 +71,6 @@ const Navbar: React.FC<NavbarProps> = ({ onSelect, selectedItem, isFormOpen,setI
           newsapp
         </h1>
       </div>
-
       <ul
         className={`${
           pathname === "/" ? "justify-between" : "justify-end"
